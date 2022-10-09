@@ -1,0 +1,67 @@
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 27px;
+  margin-right: 20px;
+}
+.user-component__title {
+  font-weight: 600;
+  font-size: 22px;
+}
+.user-component__subtitle {
+  margin-top: 8px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+}
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.user-component__subtitle {
+  display: flex;
+}
+
+.user-component__subtitle > div {
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid tomato;
+  color: tomato;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
